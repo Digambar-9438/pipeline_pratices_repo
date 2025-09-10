@@ -7,7 +7,7 @@ module "md_resource_group" {
 module "md_stroage_account" {
   depends_on           = [module.md_resource_group]
   source               = "../module/azurerm_stroage_account"
-  storage_account_name = "vivekbaliyanstroageaccount1"
+  storage_account_name = "vivekstroageacct9876"
   resource_group_name  = "rg-vivekb123"
   location             = "west us"
  }
