@@ -11,3 +11,8 @@ module "md_stroage_account" {
   resource_group_name  = "rg-vivekb123"
   location             = "west us"
  }
+
+ 
+# Creates an Azure Storage Account with security tool integration.
+# Security Tool: Please specify the name of the security tool being used for monitoring or compliance.
+# This resource ensures secure storage for your data and can be configured to meet organizational security requirements.
